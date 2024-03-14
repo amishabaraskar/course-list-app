@@ -1,4 +1,4 @@
-import { Modal, Button } from "react-bootstrap";
+import { Modal, Button, ModalFooter } from "react-bootstrap";
 import Form from './form';
 
 function ModalForm({show,handleClose}) {
@@ -10,7 +10,8 @@ function ModalForm({show,handleClose}) {
           <Modal.Title>Enquiry form</Modal.Title>
         </Modal.Header>
         <Modal.Body
-        ><Form closeModal={handleClose}/></Modal.Body>
+        ><Form closeModal={handleClose} /></Modal.Body>
+        <ModalFooter>{id}</ModalFooter>
  
       </Modal>
     </>

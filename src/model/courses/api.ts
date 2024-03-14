@@ -6,9 +6,10 @@ export async function getCourses() {
   return json;
 }
 
-export async function enquiry(user)  {
+export async function enquiry(user,id)  {
   try {
-    const enq={...user}
+    const enq={...user,courseid:id}
+    
     const response = await fetch("http://localhost:3000/enquiries/", {
       method: "POST",
       headers:{'Content-Type':'application/json'},

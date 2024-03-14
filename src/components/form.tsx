@@ -1,6 +1,7 @@
 import * as Yup from "yup";
 import { Formik } from "formik";
 import { enquiry } from "../model/courses/api";
+import { useSelector } from "react-redux";
 
 const  formSchema= Yup.object().shape({
     name: Yup.string().required(),
@@ -9,11 +10,15 @@ const  formSchema= Yup.object().shape({
 });
 
 const Form = ({closeModal}) => {
+  const id = useSelector((state) => {
+    return state?.id;
+  });
+
   return (
     <Formik
       validationSchema={formSchema}
       onSubmit={async (values) => {
-        await enquiry(values)
+        await enquiry(values,id)
 
         closeModal();
         console.log(id);
@@ -79,7 +84,7 @@ const Form = ({closeModal}) => {
                 type="submit"
                 className="bg-green-500 text-white px-12 py-4 rounded hover:bg-green-400 w-full"
               >
-                Login
+                Submit
               </button>
             </form>
           </div>
