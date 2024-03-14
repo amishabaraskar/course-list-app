@@ -1,0 +1,187 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "abc"
+    },
+    {
+      "id": 2,
+      "name": "def"
+    },
+    {
+      "id": 3,
+      "name": "xyz"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
+    },
+    {
+      "id": 18
+    },
+    {
+      "id": 19
+    },
+    {
+      "id": 20
+    },
+    {
+      "id": 21
+    },
+    {
+      "id": 22
+    },
+    {
+      "id": 23
+    },
+    {
+      "id": 24
+    },
+    {
+      "id": 25
+    },
+    {
+      "id": 26
+    },
+    {
+      "id": 27
+    }
+  ],
+  "courses": [
+    {
+      "name": "React Course",
+      "albumArt": {
+        "courseimg": "https://via.placeholder.com/150"
+      },
+      "price": "$250",
+      "duration": "40 hr.",
+      "id": 1
+    },
+    {
+      "name": "Block chain Course",
+      "courseimg": {
+        "thumbnail": "https://via.placeholder.com/150"
+      },
+      "price": "$200",
+      "duration": "30 hr.",
+      "id": 2
+    },
+    {
+      "name": "Artificial intelligence Course",
+      "courseimg": {
+        "thumbnail": "https://via.placeholder.com/150"
+      },
+      "price": "$350",
+      "duration": "40 hr.",
+      "id": 3
+    },
+    {
+      "name": "Spring boot Course",
+      "courseimg": {
+        "thumbnail": "https://via.placeholder.com/150"
+      },
+      "price": "$250",
+      "duration": "30 hr.",
+      "id": 4
+    }
+  ],
+  "enquiries": [
+    {
+      "id": 1,
+      "name": "abc",
+      "email": "abc@g.com",
+      "mobileno": "1234567890"
+    },
+    {
+      "name": "ab",
+      "email": "a@g.com",
+      "mobileno": "1234567890",
+      "id": 2
+    },
+    {
+      "name": "hj",
+      "email": "a@n.com",
+      "mobileno": "1234567890",
+      "id": 3
+    },
+    {
+      "name": "fjn",
+      "email": "a.@ucom",
+      "mobileno": "1234567890",
+      "id": 4
+    },
+    {
+      "name": "fbnjgn",
+      "email": "e@y.com",
+      "mobileno": "1234567890",
+      "id": 5
+    },
+    {
+      "name": "gh",
+      "email": "q@x.com",
+      "mobileno": "1111111111",
+      "id": 6
+    },
+    {
+      "name": "we",
+      "email": "q@e.com",
+      "mobileno": "1111111111",
+      "id": 7
+    },
+    {
+      "name": "asf",
+      "email": "a@g.com",
+      "mobileno": "1111111111",
+      "id": 8
+    }
+  ]
+}
