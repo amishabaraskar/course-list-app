@@ -11,7 +11,6 @@ function ModalForm({show,handleClose}) {
         </Modal.Header>
         <Modal.Body
         ><Form closeModal={handleClose} /></Modal.Body>
-        <ModalFooter>{id}</ModalFooter>
  
       </Modal>
     </>

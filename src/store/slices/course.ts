@@ -1,9 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-// export interface CartSliceState {
-//   items: Album[];
-//   order: { loading: boolean; details: any; error: any };
-// }
 
 const initialState = {
   id:0

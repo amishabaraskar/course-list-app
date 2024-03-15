@@ -2,34 +2,27 @@ import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { Route, Routes } from "react-router-dom";
+
 import Header from './components/header';
-import { getCourses } from './model/courses/api';
-import CourseList from './components/courselist';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import EnquiryPage from './screens/enquirypage';
+import Homepage from './screens/homepage';
 
 
  function App() {
 
-  const [courses, setCourses] = useState();
-  
-
-  useEffect(() => {
-    const callApi = async () => {
-      const courses =  await getCourses();
-      console.log(courses)
-
-      setCourses(courses);
-
-    };
-     callApi();
-  },[]);
-
-
   return (
     <>
-      <Header title="Course list App"/>
-      <CourseList courses={courses}  />
+      <Header title="Course App"/>
+      <main className='container mx-auto p-0'>
+        <Routes>
+          <Route path="/" element={<Homepage/>} />
+          <Route path="/enquiry" element={<EnquiryPage/>} />
 
+        </Routes>
+      </main>
+    
     </>
   )
 }
